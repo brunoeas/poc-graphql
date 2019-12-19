@@ -4,7 +4,8 @@
   "description": "Uma POC em NodeJS para testar e aprender sobre GraphQL, usando um exemplo de sistema simples de gerenciamento de anotações.",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   "homepage": "https://github.com/brunoeas/poc-graphql#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "graphql": "^14.5.8"
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "moment": "^2.24.0"
   }
 }

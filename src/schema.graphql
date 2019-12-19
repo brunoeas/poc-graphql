@@ -1,0 +1,18 @@
+type Anotacao {
+  idAnotacao: ID!
+  dsText: String!
+  dsAnotacao: String
+  dhModificacao: String!
+}
+
+type Query {
+  anotacaoById(idAnotacao: ID!): Anotacao
+  allAnotacoes: [Anotacao!]!
+  anotacoesAfterDate(dhModificacao: String!): [Anotacao!]!
+}
+
+type Mutation {
+  saveAnotacao(dsAnotacao: String, dsText: String!): Anotacao
+  updateAnotacao(idAnotacao: ID!, dsAnotacao: String, dsText: String): Anotacao
+  deleteAnotacaoById(idAnotacao: ID!): Int
+}
