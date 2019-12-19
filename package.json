@@ -1,0 +1,28 @@
+{
+  "name": "anotacoes-backend",
+  "version": "0.0.1",
+  "description": "Uma POC em NodeJS para testar e aprender sobre GraphQL, usando um exemplo de sistema simples de gerenciamento de anotações.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoeas/poc-graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "node",
+    "poc"
+  ],
+  "author": "Bruno Eduardo <bruno.soares@kepha.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoeas/poc-graphql/issues"
+  },
+  "homepage": "https://github.com/brunoeas/poc-graphql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^14.5.8"
+  }
+}
