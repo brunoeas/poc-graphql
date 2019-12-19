@@ -9,7 +9,7 @@ const Anotacao = require('../model/anotacao');
 class State {
   /**
    * Cria uma nova instância da classe State
-
+   *
    * @param {Anotacao[]} [anotacoes=[]] - Anotações
    * @memberof State
    */
